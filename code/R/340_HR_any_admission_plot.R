@@ -8,9 +8,9 @@ library(readxl)
 library(tidyverse)
 library(cowplot)
 
-filepath_lookup <- "C:/ISPM/HomeDir/HIV-mental disorders/Anja/lookup"
-filepath_read <- "C:/ISPM/HomeDir/HIV-mental disorders/Anja/output/tables/model output"
-filepath_plot <- "C:/ISPM/HomeDir/HIV-mental disorders/Anja/output/plots/hazard ratios"
+filepath_lookup <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/LYL/lookup"   # found in 'lookup' folder of GitHub rep
+filepath_read <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/tables/model output"
+filepath_plot <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/plots/hazard ratios"
 
 # ordered exposures
 target <- c("Any Mental Health Diagnosis", "Organic Disorders","Substance Use Disorders","Psychotic Disorders",

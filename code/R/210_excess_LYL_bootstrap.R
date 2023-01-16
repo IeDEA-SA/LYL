@@ -15,7 +15,7 @@ tic()
 
 filepath_read <- "~/MHD/R/input/AfAc"
 filepath_write <- "~/MHD/R/output/lyl"
-filepath_lookup <- "~/MHD/R/lookup"
+filepath_lookup <- "~/MHD/R/lookup"            # see'lookup' folder of github repository
 source("~/MHD/R/Code/Utils/timeSplit_DT.R")
 
 min_age <- 15

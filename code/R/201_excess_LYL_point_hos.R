@@ -16,7 +16,7 @@ tic()
 
 filepath_read <- "C:/ISPM/Data/HIV-mental disorders/AfAc_excess_mortality/processed"
 filepath_write <- "C:/ISPM/Data/HIV-mental disorders/AfAc_excess_mortality/lillies/point_estimates" 
-source(file="C:/ISPM/HomeDir/HIV-mental disorders/R/Code/utils/timeSplit_DT.R")  # found in Utils folder of github repository
+source(file="C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/LYL/code/R/utils/timeSplit_DT.R") # found in Utils folder of github repository
 
 which_mhd <- c("first_hos_any","first_hos_organic","first_hos_substance_use_disorder","first_hos_alcohol_use_disorder","first_hos_drug_use_disorder",
                "first_hos_psychotic","first_hos_mood_disorder","first_hos_bipolar","first_hos_depression","first_hos_anxiety","first_hos_generalised_anxiety_disorder",

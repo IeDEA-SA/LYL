@@ -4,9 +4,9 @@ library(data.table)
 library(writexl)
 library(readxl)
 
-filepath_lookup <- "C:/ISPM/HomeDir/HIV-mental disorders/Anja/lookup"
-filepath_read <- "C:/ISPM/HomeDir/HIV-mental disorders/Anja/output/tables/model output"
-filepath_write <- "C:/ISPM/HomeDir/HIV-mental disorders/Anja/output/tables/model output"
+filepath_lookup <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/LYL/lookup"   # found in 'lookup' folder of GitHub rep
+filepath_read <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/tables/model output"
+filepath_write <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/tables/model output"
 
 #read in data
 expo <- read.csv(file.path(filepath_lookup,"exposures.csv"),header=TRUE, sep=",")

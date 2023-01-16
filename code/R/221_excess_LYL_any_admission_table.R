@@ -9,10 +9,10 @@ library(dplyr)
 library(writexl)
 library(tidyverse)
 
-filepath_lookup <- "C:/ISPM/HomeDir/HIV-mental disorders/Anja/ELYL/lookup"
+filepath_lookup <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/LYL/lookup"
 filepath_est <- "C:/ISPM/Data/HIV-mental disorders/AfAc_excess_mortality/lillies/point_estimates"
 filepath_boot <- "C:/ISPM/Data/HIV-mental disorders/AfAc_excess_mortality/lillies/bootstrap/joined"
-filepath_write <- "C:/ISPM/HomeDir/HIV-mental disorders/Anja/output/tables/model output"
+filepath_write <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/tables/model output"
 
 # ordered exposures, nested disorders at the end
 target <- c("Any Mental Health Diagnosis", "Organic Disorders","Substance Use Disorders","Psychotic Disorders","Mood Disorders","Anxiety Disorders",

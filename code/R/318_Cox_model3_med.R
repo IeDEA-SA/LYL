@@ -12,9 +12,9 @@ library(writexl)
 tic()
 
 filepath_read <- "C:/ISPM/Data/HIV-mental disorders/AfAc_excess_mortality/processed"
-filepath_tables <- "C:/ISPM/HomeDir/HIV-mental disorders/Anja/output/tables/model output"
+filepath_tables <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/tables/model output"
 filepath_write <- "C:/ISPM/Data/HIV-mental disorders/AfAc_excess_mortality/regression objects" 
-source(file="C:/ISPM/HomeDir/HIV-mental disorders/R/Code/utils/timeSplit_DT.R")
+source(file="C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/LYL/code/R/utils/timeSplit_DT.R") # found in Utils folder of github repository
 
 # exposures to analyse
 which_mhd<- which_mhd<-  c("first_substance_use_med","first_antipsychotic","first_antidepressant","first_anxiolytic")

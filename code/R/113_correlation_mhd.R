@@ -11,9 +11,8 @@ library(ggplot2)
 tic()
 
 filepath_read <- "C:/ISPM/Data/HIV-mental disorders/AfAc_excess_mortality/processed"
-filepath_write <- "C:/ISPM/HomeDir/HIV-mental disorders/Anja/output/tables/descriptive"
-filepath_plot <- "C:/ISPM/HomeDir/HIV-mental disorders/Anja/output/plots/comorbidity"
-source(file="C:/ISPM/HomeDir/HIV-mental disorders/R/Code/utils/timeSplit_DT.R")
+filepath_write <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/tables/descriptive"
+filepath_plot <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/plots/comorbidity"
 
 which_mhd<- c("first_any_admission_organic","first_any_admission_substance_use_disorder","first_any_admission_psychotic","first_any_admission_mood_disorder",
               "first_any_admission_anxiety","first_any_admission_asc_developmental_disorders","first_any_admission_asc_personality_disorder")
