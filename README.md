@@ -10,4 +10,6 @@ Code for analysis of excess mortality associated with mental illness in a South 
 
 In additional analyses, we computed adjusted hazard ratios comparing mortality in people with a mental health diagnosis to those without, using Cox proportional hazards models.
 
+**Figure** Excess life-years lost associated with various types of mental illnesses.
+
 ![ELYL_any_admission_and_hos](https://user-images.githubusercontent.com/59598574/213411257-4ce5cbdf-7f45-4d07-91ee-3ec6f1d53d2e.png)
