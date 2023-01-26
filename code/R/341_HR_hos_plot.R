@@ -10,7 +10,7 @@ library(cowplot)
 
 filepath_lookup <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/LYL/lookup"   # found in 'lookup' folder of GitHub rep
 filepath_read <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/tables/model output"
-filepath_plot <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/plots/hazard ratios"
+filepath_plot <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/plots"
 
 # ordered exposures, nested disorders at the end
 target <- c("Any Mental Health Diagnosis", "Organic Disorders","Substance Use Disorders","Psychotic Disorders",

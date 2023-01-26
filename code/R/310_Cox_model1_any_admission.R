@@ -12,20 +12,10 @@ library(writexl)
 
 tic()
 
-ubelix <- FALSE
-
-if(ubelix)
-{
-  filepath_read <- "~/MHD/R/input/AfAc"
-  filepath_tables <- "~/MHD/R/output/tables"
-  filepath_write <- "~/MHD/R/output/regression objects"
-  source(file="~/MHD/R/Code/Utils/timeSplit_DT.R")
-} else {
-  filepath_read <- "C:/ISPM/Data/HIV-mental disorders/AfAc_excess_mortality/processed"
-  filepath_tables <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/tables/model output"
-  filepath_write <- "C:/ISPM/Data/HIV-mental disorders/AfAc_excess_mortality/regression objects" 
-  source(file="C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/LYL/code/R/utils/timeSplit_DT.R") # found in Utils folder of github repository
-}
+filepath_read <- "C:/ISPM/Data/HIV-mental disorders/AfAc_excess_mortality/processed"
+filepath_tables <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/tables/model output"
+filepath_write <- "C:/ISPM/Data/HIV-mental disorders/AfAc_excess_mortality/regression objects" 
+source(file="C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/LYL/code/R/utils/timeSplit_DT.R") # found in Utils folder of github repository
 
 # exposures to analyse
 which_mhd<- c("first_any_admission","first_any_admission_organic","first_any_admission_substance_use_disorder","first_any_admission_psychotic",

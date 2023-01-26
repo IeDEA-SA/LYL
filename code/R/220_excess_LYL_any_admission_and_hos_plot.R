@@ -6,7 +6,7 @@ library(ggplot2)
 filepath_lookup <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/LYL/lookup"
 filepath_est <- "C:/ISPM/Data/HIV-mental disorders/AfAc_excess_mortality/lillies/point_estimates"
 filepath_boot <- "C:/ISPM/Data/HIV-mental disorders/AfAc_excess_mortality/lillies/bootstrap/joined"
-filepath_plot <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/plots/LYL"
+filepath_plot <- "C:/ISPM/HomeDir/HIV-mental disorders/AfAc_excess_mortality/output/plots"
 
 expo <- read.csv(file.path(filepath_lookup,"exposures.csv"),header=TRUE, sep=",")
 
